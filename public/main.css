@@ -175,7 +175,7 @@
 
 body {
   font-family: "Lato", sans-serif;
-  background-image: url("/public/img/wave.svg");
+  background-image: url("img/wave.svg");
   background-repeat: no-repeat;
   background-color: #CCCCCC;
   background-position: top right;
