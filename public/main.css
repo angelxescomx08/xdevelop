@@ -20,7 +20,7 @@
   cursor: pointer;
 }
 .nav-list li:hover {
-  background-color: #4f4aa1;
+  background-color: #5751d4;
   opacity: 0.9;
 }
 .nav-list :nth-child(1) {
@@ -174,12 +174,9 @@
 }
 
 body {
+  height: 100%;
   font-family: "Lato", sans-serif;
-  background-image: url(/img/wave.svg);
-  background-repeat: no-repeat;
-  background-color: #CCCCCC;
-  background-position: top right;
-  background-position-y: -100px;
+  background: linear-gradient(#4f4aa1, #b4b4b4);
 }
 
 /*# sourceMappingURL=main.css.map */
