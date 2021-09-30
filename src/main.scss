@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import "components/_normalize";
+@import "components/navbar";
+@import "components/search";
+@import "components/container-cards";
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-image: url(/public/img/wave.svg);
+    background-repeat: no-repeat;
+    background-color: $silver;
+    background-position: top right;
+    background-position-y: -100px;
+}

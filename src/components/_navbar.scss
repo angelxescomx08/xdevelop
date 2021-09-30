@@ -1,0 +1,27 @@
+$color-letra: #FFFFFF;
+$background-li: #4f4aa1;
+
+.nav-list {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    li {
+        font-weight: bold;
+        font-size: .9rem;
+        color: $color-letra;
+        padding: 0.8em 2em;
+        list-style: none;
+        border-radius: 5rem;
+        transition-duration: .3s;
+        cursor: pointer;
+    }
+    li:hover{
+        background-color: $background-li;
+        opacity: .9;
+    }
+    :nth-child(1) {
+        margin-right: 5em;
+    }
+    :nth-child(2) {
+        margin-left: 5em;
+    }
+}
