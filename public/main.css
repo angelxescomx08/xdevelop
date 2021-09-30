@@ -177,6 +177,7 @@ body {
   height: 100%;
   font-family: "Lato", sans-serif;
   background: linear-gradient(#4f4aa1, #b4b4b4);
+  background: -webkit-linear-gradient(#4f4aa1, #b4b4b4);
 }
 
 /*# sourceMappingURL=main.css.map */
