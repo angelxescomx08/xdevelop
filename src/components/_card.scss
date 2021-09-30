@@ -2,6 +2,7 @@ $gradient: linear-gradient(#9a01cf, #0943ea);
 $purple: #9a01cf;
 
 .card {
+    overflow: hidden;
     margin: 3em;
     width: 320px;
     height: 420px;

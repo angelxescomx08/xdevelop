@@ -89,6 +89,7 @@
 }
 
 .card {
+  overflow: hidden;
   margin: 3em;
   width: 320px;
   height: 420px;
